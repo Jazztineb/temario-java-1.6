@@ -1,0 +1,42 @@
+MODIFICADORES DE ACCESO
+	Existen tres modificadores de acceso: public, protected y private. 
+	Sin embargo, existen cuatro niveles de acceso. Cuando no se especifica ninguno 
+	de los tres modificadores anteriores se tiene el nivel de acceso por defecto, que es el nivel de paquete.
+	
+	Para las clases de primer nivel solo se permite
+		-public
+		-nivel de paquete
+		
+	Para atributos, métodos, clases anidadas, se permiten todos.
+	
+	Estos son:
+	
+	-Private
+		Solo es accesible dentro de su clase.
+	-No se especifica(nivel de paquete)
+		Es accesible dentro de su clase y por todas las clases de su paquete.
+	-Protected
+		Es accesible dentro de su clase, por todas las clases de su paquete y 
+		por las clases hijas que estén en otro paquete diferente.
+	-Public
+		Accesible para cualquier clase Java.
+		
+OTROS MODIFICADORES DE ACCESO
+
+	-Strictftp
+	Cuando marcamos una clase como strictp significa que todo el código de la clase sigue 
+	la especificación IEEE754 para flotantes. Cuando marcamos strictfp a un método el código 
+	del método sigue la especificación anterior.
+	Si cumplimos esta especificación prevenimos que los números flotantes puedan ser 
+	dependientes de la plataforma.
+	-Final
+	Cuando marcamos una clase como final estamos indicando que esta clase no puede ser extendida en subclases.
+	Los métodos marcados como final no pueden sobrescribirse.
+	Si una variable se marca como final, se convierte en una constante
+	-Abstract
+	Cuando marcamos una clase como abstract estamos indicando que no se puede instanciar. 
+	Su objetivo es ser extendida en subclases.
+	Una clase abstracta puede tener tanto métodos abstractos como no abstractos. 
+	Un solo método abstracto obliga a declarar la clase como abstracta.
+	Este tipo de clases son útiles cuando la implementación queremos que se concrete en sus clases hijas.
+	No tiene sentido declarar una clase final y abstracta.
