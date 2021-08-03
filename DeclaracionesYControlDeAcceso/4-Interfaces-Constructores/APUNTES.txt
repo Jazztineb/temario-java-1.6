@@ -1,0 +1,33 @@
+INTERFAZ
+    La interfaz pública de una clase es un “contrato” entre el código cliente 
+    y la clase que proporciona el servicio.
+    Decimos que una clase implementa una interfaz cuando implementa todos los métodos declarados en ella.
+    Varias clases pueden implementar la misma interfaz. Una sola clase puede implementar varias interfaces.
+
+    Sintaxis
+        [Modificadores] interface NombreInterface [extends InterfacePadre]{
+        <public static final atributos>
+        <public abstract metodos>
+        }
+
+Todos los métodos declarados en una interfaz son public y abstract, aunque no se especifique.
+Todos los atributos en una interfaz son public, static y final, aunque no se especifique. Es decir, constantes.
+Los métodos no pueden ser static ni final, strictfp, o native.
+Una interfaz puede extender solo otras interfaces.
+
+Las interfaces se usan para:
+    -Declarar métodos que serán implementados por una o varias clases.
+    -Dar a conocer la interfaz de programación sin revelar la implementación
+    -Identificar similitudes entre clases no relacionadas
+    -Simular la herencia múltiple declarando una clase que implemente varias interfaces
+
+CONSTRUCTORES
+    Un constructor es un conjunto de sentencias para inicializar una instancia.
+    No se consideran métodos. No tienen valores de retorno ni se heredan.
+    El nombre del constructor debe coincidir con el de la clase.
+    Cada clase tiene al menos un constructor. Si no se escribe ninguno Java suministra uno por defecto. 
+    En ese caso el constructor no tiene argumentos y su cuerpo está vacío.
+    En el momento que nosotros escribamos un constructor se pierde el constructor por defecto.
+
+    Sintaxis
+    [Modificadores] nombreClase (<argumentos>){}
