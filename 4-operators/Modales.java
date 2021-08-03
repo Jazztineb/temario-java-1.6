@@ -1,0 +1,7 @@
+/**
+ * Modales
+ */
+public interface Modales {
+
+    
+}
