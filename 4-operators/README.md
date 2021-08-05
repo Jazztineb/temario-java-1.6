@@ -12,6 +12,8 @@ _Down below it is detailed the topics seen in the unit._
     
     * _An example of variable increment using compound operators._
 
+    * _An example of compound assignments implementation._
+
 * _In the second folder of reviews there are several exercises showing the use of._
 
     * _Assignment operator._
