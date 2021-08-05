@@ -7,17 +7,17 @@ _In this repository you will find all the practical exercises worked out during 
 _Below are the topics viewed per week:._
 
 * _Week one._
-    * _1.- Declaration and access control._
-    * _2.- Object orientation._
+     _1.- Declaration and access control._
+     _2.- Object orientation._
 * _Week two._
-    * _3.- Assignments._
-    * _4.- Operators._
+     _3.- Assignments._
+     _4.- Operators._
 * _Week three._
-    * _5.- Flow control, exceptions and asserts._
-    * _6.- Strings_
+     _5.- Flow control, exceptions and asserts._
+     _6.- Strings_
 * _Week four._
-    * _7.- Collections._
-    * _8.- Compilations errors._
+     _7.- Collections._
+     _8.- Compilations errors._
 
 ## Tools, resources and technologies used in this project 🛠️
 
